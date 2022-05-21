@@ -5,9 +5,10 @@
   font-style: normal;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
+
 
 /* HEADER */
 .header { 
@@ -28,7 +29,7 @@ html{
 .hello h1 {
   margin-top: 30px;
   font-family: 'Indie Flower', cursive;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: bold;
   flex-direction: row;
   display: flex;
@@ -39,14 +40,14 @@ html{
   display: block; 
   margin-top: 20px;
   margin-left: 50px;
-  font-size: 200px;
+  font-size: 100px;
   
 }
 
 .hello img {
-  margin-top: 60px;
-  width: 400px;
-  height: 400px;
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
   border-radius: 70%;
 }
 
@@ -68,7 +69,7 @@ html{
 
 .nav ul li a{
   text-decoration: none;
-  font-size: 50px;
+  font-size: 30px;
   color: black;
   font-family: 'Indie Flower', cursive;
 }
@@ -82,7 +83,7 @@ html{
 }
 
 .description h1 { 
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 400;
   font-family: 'Indie Flower', cursive;
   margin-bottom: 20px;
@@ -92,7 +93,7 @@ html{
 .description h3 {
   margin-top: 10px;
   margin-bottom: 30px;
-  font-size: 50px;
+  font-size: 20px;
   /* font-family: 'Indie Flower', cursive; */
   font-family: 'Unilab';
   text-decoration: underline;
@@ -100,13 +101,13 @@ html{
   text-decoration-style: wavy;
   text-decoration-thickness: 2.5px;
   letter-spacing: 2px;
-  line-height: 70px;
+  line-height: 40px;
   text-align: center;
   
 }
 
 .description p {
-  font-size: 40px;
+  font-size: 15px;
   font-family: 'Unilab';
   text-align: center;
 }
@@ -124,8 +125,8 @@ html{
 
 #about_me .gradu_img img {
   margin: 20px;
-  width: 450px;
-  height: 450px;
+  width: 250px;
+  height: 250px;
 }
 
 
@@ -133,7 +134,7 @@ html{
 
 #like h2 {
   font-family: 'Unilab';
-  font-size: 70px;
+  font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -144,8 +145,8 @@ html{
 
 #like .egypt_img img {
   margin: 20px;
-  width: 450px;
-  height: 450px;
+  width: 250px;
+  height: 250px;
 }
 
 /* want */
@@ -155,25 +156,32 @@ html{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
-  
 }
 
 #want .want_img img {
-  margin: 30px 20px;
-  width: 500px;
-  height: 500px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+#want .want_img .want2 img {
+  margin-top: 50px;
+}
+
+#want .want_img .want3 img {
+  margin-top: 50px;
 }
 
 #want .want_img h2 {
   font-family: 'Unilab';
-  font-size: 50px;
+  font-size: 30px;
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-style: wavy;
   text-decoration-thickness: 2.5px;
-  letter-spacing: 2px;
-  line-height: 70px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
   text-align: center
 }
 
@@ -230,7 +238,7 @@ html{
 }
 
 .icons i {
-  font-size: 70px;
+  font-size: 30px;
   margin: 5px 9px;
 
 
