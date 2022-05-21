@@ -92,7 +92,6 @@ html{
 .description h3 {
   margin-top: 10px;
   margin-bottom: 30px;
-  margin-left: 10px;
   font-size: 50px;
   /* font-family: 'Indie Flower', cursive; */
   font-family: 'Unilab';
@@ -107,7 +106,6 @@ html{
 }
 
 .description p {
-  margin-left: 10px;
   font-size: 40px;
   font-family: 'Unilab';
   text-align: center;
@@ -120,6 +118,9 @@ html{
 
 
 /* ABOUT ME */
+#about_me .gradu_img {
+  text-align: center;
+}
 
 #about_me .gradu_img img {
   margin: 20px;
@@ -137,8 +138,8 @@ html{
   text-align: center;
 }
 
-#like h3 {
-
+#like .egypt_img {
+  text-align: center;
 }
 
 #like .egypt_img img {
@@ -178,7 +179,7 @@ html{
 
 /* ICON */
 
-.icons {
+/* .icons {
   position: relative;
 }
 
@@ -215,4 +216,30 @@ html{
 .icons a i:hover {
   transform: scale(1.4);
   transition: transform .3s;
-} 
+}  */
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons i {
+  font-size: 70px;
+  margin: 5px 9px;
+
+
+  color: rgb(0, 0, 0);
+}
+
+
+.icons a i:hover {
+  transform: scale(1.4);
+  transition: transform .3s;
+}
+
