@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Unilab';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/Unilab.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header { 
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.hello h1 {
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+  font-weight: bold;
+  flex-direction: row;
+  display: flex;
+  
+}
+
+.hello h1 .heart {
+  display: block; 
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 200px;
+  
+}
+
+.hello img {
+  margin-top: 60px;
+  width: 400px;
+  height: 400px;
+  border-radius: 70%;
+}
+
+.nav ul {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav ul li {
+  padding: 10px 90px;
+}
+
+.nav ul li:hover {
+  transform: scale(1.4);
+  transition: transform .3s;
+} 
+
+.nav ul li a{
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* DESCRIPTON */
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h1 { 
+  font-size: 70px;
+  font-weight: 400;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-size: 50px;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Unilab';
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2.5px;
+  letter-spacing: 2px;
+  line-height: 70px;
+  text-align: center;
+  
+}
+
+.description p {
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: 'Unilab';
+  text-align: center;
+}
+
+#about_me, #like, #want {
+  margin: 50px;
+  
+}
+
+
+/* ABOUT ME */
+
+#about_me .gradu_img img {
+  margin: 20px;
+  width: 450px;
+  height: 450px;
+}
+
+
+/* LIKE */
+
+#like h2 {
+  font-family: 'Unilab';
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#like h3 {
+
+}
+
+#like .egypt_img img {
+  margin: 20px;
+  width: 450px;
+  height: 450px;
+}
+
+/* want */
+
+#want {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+
+#want .want_img img {
+  margin: 30px 20px;
+  width: 500px;
+  height: 500px;
+}
+
+#want .want_img h2 {
+  font-family: 'Unilab';
+  font-size: 50px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2.5px;
+  letter-spacing: 2px;
+  line-height: 70px;
+  text-align: center
+}
+
+/* ICON */
+
+.icons {
+  position: relative;
+}
+
+.icons a {
+  text-decoration: none;
+}
+.icons i {
+  font-size: 90px;
+  color: rgb(0, 0, 0);
+}
+
+.icons .icon_insta {
+  position: absolute;
+  top: -550px;
+  left: 600px;
+}
+
+.icons .icon_github {
+  position: absolute;
+  top: -400px;
+  right: 600px;
+}
+
+.icons .icon_velog {
+  position: absolute;
+  top: -300px;
+  left: 450px;
+}
+
+.icons .icon_velog i {
+  font-size: 75px;
+}
+
+.icons a i:hover {
+  transform: scale(1.4);
+  transition: transform .3s;
+} 
