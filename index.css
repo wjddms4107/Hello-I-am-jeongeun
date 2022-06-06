@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Unilab';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/Unilab.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* HEADER */
+header { 
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello h1 .heart {
+  display: block; 
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 100px;
+  
+}
+
+.hello img {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.hello p {
+  padding: 3px 10.5px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 23px;
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icons i {
+  font-size: 30px;
+  margin: 5px 9px;
+  color: rgb(0, 0, 0);
+}
+
+
+.icons a i:hover {
+  transform: scale(1.4);
+  transition: transform .3s;
+}
+
+
+nav ul {
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px 90px;
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+  transition: transform .3s;
+} 
+
+nav ul li a{
+  font-size: 30px;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+}
+
+nav ul li:first-child {
+  padding-right: 40px;
+}
+
+
+
+/* MAIN */
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description h1 { 
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 10px;
+}
+
+.description h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Unilab';
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-style: wavy;
+  text-decoration-thickness:1.5px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.description #want h3 {
+  font-size: 25px;
+}
+
+
+.description p {
+  font-size: 17px;
+  font-family: 'Unilab';
+}
+
+#about_me, #like, #want {
+  margin: 30px;
+  text-align: center;
+  
+}
+
+
+
+/* ABOUT ME */
+
+#about_me .gradu_img img {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+
+/* LIKE */
+
+#like h2 {
+  font-family: 'Unilab';
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#like .egypt_img img {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+/* want */
+
+#want {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#want h1 {
+  margin-bottom: 20px;
+}
+#want .want_img img {
+  margin-bottom: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+#want .want_img .want2 img {
+  margin-top: 50px;
+}
+
+#want .want_img .want3 img {
+  margin-top: 70px;
+}
+
