@@ -26,107 +26,44 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header>
-    <div class="hello">
-      <img src="./img/jeongeun.png" alt="노정은사진">
-      <p>FrontEndDeveloper</p>
+  <div class="text_box">
+    <span class="text"></span>
+    <span class="blink">|</span>
+  </div>
+
+  <button class="btn_about" type="button" onclick="location.href='index.html';">about me!</button>
+
+  <!-- 댓글 추가 삭제 기능 -->
+
+  <article class="comment">
+    <div class="title">
+      <span>방명록을 작성해주세요 :)</span>
     </div>
 
-    <div class="icons">
-      <div class="icon_insta">
-        <a href="www.instagram.com/jeongeuni____" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-      </div>
-      <div class="icon_github">
-        <a href="https://github.com/wjddms4107" target="_blank">
-          <i class="fa-brands fa-github-square"></i>
-        </a>
-      </div>
-      <div class="icon_velog">
-        <a href="https://velog.io/@wjddms4107" target="_blank">
-          <i class="fa-brands fa-vimeo"></i>
-        </a>
-      </div>
-    </div>
+    <section>
+      <ul class="items">
+        <li class="item">
 
-    <nav>
-      <ul>
-        <li><a href="#about_me">About me</a></li>
-        <li><a href="#like">Like</a></li>
-        <li><a href="#want">Want</a></li>
+        </li>
       </ul>
-    </nav>
+    </section>
 
-  </header>
-
-  <!--MAIN-->
-  <main class="description">
-
-    <!--ABOUT ME-->
-    <div id="about_me">
-      <h1>About me</h1>
-      <h3>&nbsp;안녕하세요 :)&nbsp; <br> &nbsp; 나를 믿으면 무엇이든 해낼 수 있다고 생각하는 노정은이에요.&nbsp;</h3>
-      <p>#ENFP&nbsp;&nbsp; #친구들이 부르는 나 = 정니&nbsp;&nbsp; #밝고 긍정적인 에너지</p>
-
-      <div class="gradu_img">
-        <img src="./img/gradu2.png" alt="졸업사진1">
-        <img src="./img/gradu3.png" alt="졸업사진2">
-      </div>
-    </div>
-
-    <!--LIKE-->
-    <div id="like">
-      <h1>Like</h1>
-      <h2>" 인생은 미쳐야 재밌다. "</h2>
-      <h3>&nbsp;제가 참 좋아하는 문구에요.&nbsp;<br>&nbsp;한 번 사는 인생 열심히 하고 싶은 거 하고 살아야죠!&nbsp;&nbsp;<br>&nbsp;그래서 그런지 저는 도전을 두려워하지
-        않는 것 같아요.&nbsp; <br>&nbsp;본 전공이 아랍어인데 이집트에서 유학 생활도 했어요.&nbsp;&nbsp; <br>&nbsp;현재는 프론트엔드 개발자가 되고 싶어 다시 공부를
-        시작했답니다.&nbsp;&nbsp;</h3>
-
-      <div class="egypt_img">
-        <img src="./img/egypt5.png" alt="이집트에서 낙타타고 있는 사진">
-        <img src="./img/egypt3.png" alt="이집트 사막에서 바흐리야글씨 사진">
-        <img src="./img/egypt1.png" alt="이집트 사막에서 노정은">
-      </div>
-    </div>
-
-    <!--Want-->
-    <div id="want">
-      <h1>Want</h1>
-
-      <div class="want_img">
-        <div class="want1">
-          <img src="./img/wecode.png" alt="위코드 사진">
-          <h3>&nbsp;후회없이 공부해서 행복한 35기 노정은이 되고싶어요.&nbsp;&nbsp;</h3>
-        </div>
-
-        <div class="want2">
-          <img src="./img/developer.png" alt="개발자 사진">
-          <h3>&nbsp;2022년에 개발자되는게 목표에요.&nbsp;&nbsp;</h3>
-        </div>
-
-        <div class="want3">
-          <img src="./img/princess.png" alt="강한공주 사진">
-          <h3>&nbsp;우린 강한 곤듀, 완댜들이니까 힘냈으면 좋겠어요 :)&nbsp;&nbsp;</h3>
-        </div>
-      </div>
-    </div>
-    </div>
-  </main>
-
-  </div>
-
-
-  </div>
+    <section class="input_itemAdd">
+      <input class="input" type="text">
+      <button class="itemAdd"><i class="fa-solid fa-person-circle-plus"></i></button>
+    </section>
+  </article>
 
 
 
-<script src="./main.js"></script>
 
+
+
+  <script src="index.js"></script>
 </body>
 
 </html>

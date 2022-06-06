@@ -5,139 +5,197 @@
   font-style: normal;
 }
 
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
+html {
+	scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
 }
 
-.text_box {
-  position: relative;
-  top: 300px;
+
+/* HEADER */
+header { 
+  padding: 50px 20px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello h1 .heart {
+  display: block; 
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 100px;
+  
+}
+
+.hello img {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.hello p {
+  padding: 3px 10.5px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 23px;
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-  font-family: 'Indie Flower', cursive;
-  font-size: 80px;
-  font-weight: bold;
-  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.text_box .blink {
-  animation: blink 0.5s infinite;
-  font-size: 90px;
-}
-
-@keyframes blink {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+.icons i {
+  font-size: 30px;
+  margin: 5px 9px;
+  color: rgb(0, 0, 0);
 }
 
 
-/* button */
-
-.btn_about {
-  position: relative;
-  top: 380px;
-  display: block;
-  margin: auto;
-  border: none;
-  padding: 10px 30px;
-  border-radius: 15px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  font-size: 28px;
-  font-family: 'Indie Flower', cursive;
-  background-color: #272626;
-  color: #e3dede;
+.icons a i:hover {
+  transform: scale(1.4);
+  transition: transform .3s;
 }
 
-.btn_about:hover {
-  letter-spacing: 2px;
+
+nav ul {
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px 90px;
+}
+
+nav ul li:hover {
   transform: scale(1.2);
-  transition: transform .2s;
-  cursor: pointer;
+  transition: transform .3s;
+} 
+
+nav ul li a{
+  font-size: 30px;
+  color: black;
+  font-family: 'Indie Flower', cursive;
 }
 
-.btn_about:active {
-  transform: scale(1.5);
+nav ul li:first-child {
+  padding-right: 40px;
 }
 
-/* 댓글 추가 삭제 기능 */
-.comment {
-  position: relative;
-  top: 500px;
+
+
+/* MAIN */
+.description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.comment .title {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.item {}
-
-.itemText {
-  height: 30px;
-  font-size: 20px;
-  margin: 5px;
-
-}
-
-.itemDel {
-  font-size: 20px;
-  margin: 5px;
+.description h1 { 
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Indie Flower', cursive;
   margin-bottom: 10px;
-  background-color: white;
-  border: white;
-  cursor: pointer;
-  height: 30px;
 }
 
-.itemDel:hover {
-  background-color: #272626;
-  color: white;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.input {
-  width: 230px;
-  height: 30px;
+.description h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
-  border: 0;
-  border-radius: 10px;
-  outline: none;
-  background-color: #e3dede;
+  font-family: 'Unilab';
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-style: wavy;
+  text-decoration-thickness:1.5px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.description #want h3 {
+  font-size: 25px;
+}
+
+
+.description p {
+  font-size: 17px;
+  font-family: 'Unilab';
+}
+
+#about_me, #like, #want {
+  margin: 30px;
+  text-align: center;
   
 }
 
-.itemAdd {
-  font-size: 20px;
-  background-color: white;
-  border: white;
-  cursor: pointer;
 
+
+/* ABOUT ME */
+
+#about_me .gradu_img img {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
 }
 
-.itemAdd:hover {
-  border-radius: 50%;
-  background-color: #e3dede;
-  /* color: white; */
-  height: 30px;
-} 
+
+/* LIKE */
+
+#like h2 {
+  font-family: 'Unilab';
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#like .egypt_img img {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+/* want */
+
+#want {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#want h1 {
+  margin-bottom: 20px;
+}
+#want .want_img img {
+  margin-bottom: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+#want .want_img .want2 img {
+  margin-top: 50px;
+}
+
+#want .want_img .want3 img {
+  margin-top: 70px;
+}
 
