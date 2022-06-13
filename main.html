@@ -25,12 +25,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 <body>
   <header>
     <div class="nav_bar">
-      <div class="logo"><i class="fa-solid fa-bed">&nbsp;JeongEun</i></div>
+      <div class="logo"><a href="index.html"><i class="fa-solid fa-bed">&nbsp;JeongEun</i></a></div>
 
       <ul class="nav">
         <li><a href="#about_me">About me</a></li>
@@ -41,7 +43,7 @@
 
     <div class="front">
       <div class="comment">
-        <p>I want to be FrontEndDevelper 👩🏻‍💻 </p>
+        <p>I want to be FrontEndDeveloper 👩🏻‍💻 </p>
       </div>
     </div>
   </header>
@@ -55,78 +57,90 @@
       <h3> 안녕하세요. 노정은이에요 🙂 </br> 저는 나를 믿으면 무엇이든 해낼 수 있다고 생각해요.</h3>
       <p>#ENFP&nbsp;&nbsp; #친구들이 부르는 나 = 정니&nbsp;&nbsp; #밝고 긍정적인 에너지</p>
 
-      <div class="gradu_img">
-        <div class="item"><img src="./img/gradu1.png" alt="졸업사진1"></div>
-        <div class="item"><img src="./img/gradu2.png" alt="졸업사진2"></div>
-        <div class="item"><img src="./img/gradu3.png" alt="졸업사진3"></div>
-      </div>
-      <hr>
-        
-      
-    </div>
-
-    <!--LIKE-->
-    <div id="like">
-      <h1>Like</h1>
-      <h2>" 인생은 단 한 번뿐,&nbsp; 대충 살아서는 행복할 수 없어! "</h2>
-      <h3>제가 참 좋아하는 문구에요.<br>한 번 사는 인생 열심히 하고 싶은 거 하고 살아야죠!<br>그래서 그런지 저는 도전을 두려워하지
-        않아요.<br>본 전공이 아랍어인 덕에 이집트에서 6개월 살아보기도 했어요.<br>현재는 프론트엔드 개발자가 되고 싶어 다시 공부를
-        시작했답니다.</h3>
-
-      <div class="egypt_img">
-        <div class="item"><img src="./img/egypt2.png" alt="이집트2"></div>
-        <div class="item"><img src="./img/egypt3.png" alt="이집트3"></div>
-        <div class="item"><img src="./img/egypt4.png" alt="이집트4"></div>
-        <div class="item"><img src="./img/egypt5.png" alt="이집트5"></div>
-        <div class="item"><img src="./img/egypt7.png" alt="이집트7"></div>
-        <div class="item"><img src="./img/egypt9.png" alt="이집트9"></div>
-      </div>
-      <hr>
-    </div>
-
-    <!--Want-->
-    <div id="want">
-      <h1>Want</h1>
-
-      <div class="want_img">
-        <div class="want1">
-          <img src="./img/wecode.png" alt="위코드 사진">
-          <h3>후회없이 공부해서 행복한 35기 노정은이 되고싶어요.</h3>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper gradu_img">
+          <div class="swiper-slide item"><img src="./img/gradu1.png" alt="졸업사진1"></div>
+          <div class="swiper-slide item"><img src="./img/gradu2.png" alt="졸업사진2"></div>
+          <div class="swiper-slide item"><img src="./img/gradu3.png" alt="졸업사진3"></div>
         </div>
+        <div class="swiper-button-next" style="color:black;"></div>
+        <div class="swiper-button-prev" style="color:black;"></div>
+        <div class="swiper-pagination"></div>
 
-        <div class="want2">
-          <img src="./img/developer.png" alt="개발자 사진">
-          <h3>2022년에 개발자되는게 목표에요.</h3>
+      </div>
+      <hr>
+
+      <!--LIKE-->
+      <div id="like">
+        <h1>Like</h1>
+        <h2>" 인생은 단 한 번뿐,&nbsp; 대충 살아서는 행복할 수 없어! "</h2>
+        <h3>제가 참 좋아하는 문구에요.<br>한 번 사는 인생 열심히 하고 싶은 거 하고 살아야죠!<br>그래서 그런지 저는 도전을 두려워하지
+          않아요.<br>본 전공이 아랍어인 덕에 이집트에서 6개월 살아보기도 했어요.<br>현재는 프론트엔드 개발자가 되고 싶어 다시 공부를
+          시작했답니다.</h3>
+
+        <div class="egypt_img">
+          <div class="item fade-in"><img src="./img/egypt2.png" alt="이집트2"></div>
+          <div class="item fade-in"><img src="./img/egypt3.png" alt="이집트3"></div>
+          <div class="item fade-in"><img src="./img/egypt4.png" alt="이집트4"></div>
+          <div class="item fade-in"><img src="./img/egypt5.png" alt="이집트5"></div>
+          <div class="item fade-in"><img src="./img/egypt7.png" alt="이집트7"></div>
+          <div class="item fade-in"><img src="./img/egypt9.png" alt="이집트9"></div>
         </div>
 
       </div>
-    </div>
+      <hr>
+
+
+      <!--Want-->
+      <div id="want">
+        <h1>Want</h1>
+
+        <div class="want_img">
+          <div class="want1">
+            <img src="./img/wecode.png" alt="위코드 사진">
+            <h3>후회없이 공부해서 행복한 35기 노정은이 되고싶어요.</h3>
+          </div>
+
+          <div class="want2">
+            <img src="./img/developer.png" alt="개발자 사진">
+            <h3>2022년에 개발자되는게 목표에요.</h3>
+          </div>
+
+        </div>
+      </div>
   </main>
 
 
-<footer>
-  <div class="icons">
-    <div class="icon_insta">
-      <a href="www.instagram.com/jeongeuni____" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+  <footer>
+    <div class="icons">
+      <div class="icon_insta">
+        <a href="www.instagram.com/jeongeuni____" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <div class="icon_github">
+        <a href="https://github.com/wjddms4107" target="_blank">
+          <i class="fa-brands fa-github-square"></i>
+        </a>
+      </div>
+      <div class="icon_velog">
+        <a href="https://velog.io/@wjddms4107" target="_blank">
+          <i class="fa-brands fa-vimeo"></i>
+        </a>
+      </div>
     </div>
-    <div class="icon_github">
-      <a href="https://github.com/wjddms4107" target="_blank">
-        <i class="fa-brands fa-github-square"></i>
-      </a>
-    </div>
-    <div class="icon_velog">
-      <a href="https://velog.io/@wjddms4107" target="_blank">
-        <i class="fa-brands fa-vimeo"></i>
-      </a>
-    </div>
-  </div>
-  <p>&nbsp&nbspmade by @jeongeun</p>
-</footer>
+    <p>&nbsp&nbspmade by @jeongeun</p>
+  </footer>
 
-  
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
 
 </body>
 

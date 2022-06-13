@@ -90,8 +90,6 @@ a {
   margin-bottom: 20px;
 }
 
-.item {}
-
 .itemText {
   height: 30px;
   font-size: 20px;
@@ -148,3 +146,65 @@ a {
   height: 30px;
 } 
 
+
+@media screen and (max-width: 480px) {
+
+  .text_box {
+    margin-top: 30px;
+    font-size: 40px;
+    height: 60px;
+  }
+
+  .text_box .blink {
+    font-size: 40px;
+  }
+
+  .btn_about {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .comment .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .itemText {
+    height: 20px;
+    font-size: 15px;
+    margin: 5px;
+  }
+  
+  .itemDel {
+    font-size: 15px;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+  }
+  
+  .itemDel:hover {
+    height: 20px;
+  }
+  
+  .input_itemAdd {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 230px;
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  .itemAdd {
+    font-size: 15px;
+  }
+  
+  .itemAdd:hover {
+    height: 20px;
+  } 
+  
+  
+
+  
+}

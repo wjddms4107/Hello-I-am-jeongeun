@@ -9,6 +9,7 @@ body {
 
 a {
   text-decoration: none;
+  color: aliceblue;
 }
 
 hr {
@@ -30,6 +31,7 @@ hr {
   color: aliceblue;
   height: 40px;
   font-size: 27px;
+  z-index: 9;
 }
 
 .nav_bar .logo {
@@ -50,12 +52,12 @@ hr {
 }
 
 .nav li a {
-  color: aliceblue;
   font-size: 20px;
 }
 
 .front {
   height: 500px;
+  width: 100%;
   background-color: #777777;
   display: flex;
   justify-content: center;
@@ -110,9 +112,8 @@ hr {
   margin: 30px;
   text-align: center;
   
+  
 }
-
-
 
 /* ABOUT ME */
 #about_me .gradu_img, #like .egypt_img {
@@ -122,11 +123,46 @@ hr {
 }
 
 #about_me .gradu_img img {
-  margin-top: 20px;
   width: 300px;
   height: 300px;
+  
 }
 
+.fade-in {
+  opacity: 0;
+}
+
+.mySwiper {
+  width: 800px;
+  height: 400px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
 
 /* LIKE */
 
@@ -207,6 +243,85 @@ footer {
 footer p {
   font-size: 25px;
   color: #777777;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 0px;
+  }
+  .nav_bar {
+    display: none;
+  }
+
+  .front {
+    height: 400px;
+  }
+  
+  .front .comment{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  /* MAIN */
+  .description h1 { 
+    font-size: 30px;
+  }
+  
+  .description h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .description #want h3 {
+    font-size: 25px;
+  }
+  
+  .description p {
+    font-size: 12px;
+  }
+
+  /* ABOUT */
+  #about_me .gradu_img, #like .egypt_img {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #about_me .gradu_img img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  /* LIKE */
+  #like h2 {
+    font-size: 15px;
+  }
+  
+  #like h3 {
+    font-size: 11px;
+    margin-bottom: 40px;
+  }
+
+  /* WANT */
+  #want .want_img h3 {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  footer {
+    height: 100px;
+  }
+  
+  .icons i {
+    font-size: 20px;
+    margin: 5px 5px;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+  
+
 }
 
 
